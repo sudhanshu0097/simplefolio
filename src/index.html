@@ -18,7 +18,7 @@
     <link rel="shortcut icon" type="image/png" href="assets/favicon.png" />
 
     <!-- Todo: put here your site title -->
-    <title>[Your name here] | Developer</title>
+    <title>Sudhanshu-portfolio</title>
     <!-- Todo: add some coding keywords below - e.g: (javascript, yourusername, etc) -->
     <meta name="keywords" content="[username], [name], skill" />
     <!-- Todo: improve your SEO by adding a small description of you -->
@@ -38,9 +38,77 @@
     <script async defer src="https://buttons.github.io/buttons.js"></script>
   </head>
 
+  <style>
+    #top
+    {
+      
+      width: 100%;
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      padding: 0px 50px 0px 100px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      
+  
+    }
+    #sidelogo
+    {
+        display: flex;
+    }
+    #sidelogo>div>a
+    {
+      margin: 0rem 0.9rem;
+      font-size: 18px;
+      font-weight: 600;
+      letter-spacing: 1px;
+      color: #272341;
+    }
+   
+ 
+    #top>div>#logo
+    {
+      font-size: 33px;
+      color: #00cdac;
+      font-weight: 600;
+    }
+  @media only screen and (max-width: 850px) {
+    #top
+    {
+      display: block;
+    }
+    #sidelogo
+    {
+      width: 100%;
+      justify-content: space-around;
+      font-size: 14px;
+    }
+    #sidelogo>div>a
+    {
+      margin: 0%;
+    }
+  
+}
+
+   
+
+  </style>
+
   <!-- Todo: read the following HTML Todos to create your stunning portfolio website -->
   <body>
-    <div id="top"></div>
+    <div id="top">
+      <div><a id="logo" href="#">SUDHANSHU</a></div>
+      <div id="sidelogo">
+        <div><a href="#about">ABOUT</a></div>
+        <div><a href="#"> SKILLS</a></div>
+        <div><a href="#">PROJECTS</a></div>
+        <div><a href="#">CONTACT</a></div>
+      </div>
+    
+   
+
+    </div>
 
     <!-- **** Hero Section **** -->
     <section id="hero" class="jumbotron">
@@ -48,7 +116,7 @@
         <h1 class="hero-title load-hidden">
           Hi, my name is <span class="text-color-main">Sudhanshu Kumar</span>
           <br />
-          I'm the Unknown Developer.
+          
         </h1>
         <p class="hero-cta load-hidden">
           <a rel="noreferrer" class="cta-btn cta-btn--hero" href="#about"
